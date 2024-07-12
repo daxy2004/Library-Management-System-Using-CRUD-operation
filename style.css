@@ -1,0 +1,20 @@
+body {
+    background-image: url("image.jpg");
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Bold and highlight labels */
+label {
+    font-weight: bold;
+    color: #000000; /* Blue color */
+}
+
+/* Highlight form controls */
+.form-control {
+    border-color: #000000; 
+    box-shadow: black; 
+}
+.form-control:focus {
+    border-color: #000000; 
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25); 
+}
